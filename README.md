@@ -38,11 +38,6 @@ In addition the following board-specific layers are provided:
 The board-specific layers serve as **examples** for how to integrate Rugix Ctrl with specific boards.
 Depending on your project and requirements, you may need to adapt those layers or write your own.
 
-## Known Limitations
-
-The `rugix-ctrl` recipe building Rugix Ctrl from source is not working at the moment due to some compilation issue.
-For the time being, use the binary variant `rugix-ctrl-bin`, which installs pre-build binaries.
-
 ## ⚖️ Licensing
 
 This project is licensed under either [MIT](https://github.com/silitics/rugix/blob/main/LICENSE-MIT) or [Apache 2.0](https://github.com/silitics/rugix/blob/main/LICENSE-APACHE) at your opinion.
