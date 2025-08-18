@@ -24,7 +24,7 @@ target:
 
 defaults:
   repos:
-    branch: scarthgap
+    branch: kirkstone
 
 repos:
   poky:
@@ -48,7 +48,7 @@ repos:
 
   meta-lts-mixins-rust:
     url: "https://git.yoctoproject.org/meta-lts-mixins"
-    branch: scarthgap/rust
+    branch: kirkstone/rust
 
   meta-rugix:
     path: ../
