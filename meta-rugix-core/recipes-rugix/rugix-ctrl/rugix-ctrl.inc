@@ -24,7 +24,7 @@ CARGO_BUILD_FLAGS:remove = "--frozen"
 # https://doc.rust-lang.org/cargo/reference/config.html#command-line-overrides
 CARGO_BUILD_FLAGS:append = " --config 'profile.release.strip="none"'"
 
-do_configure() {
+do_configure:prepend() {
  export RUGIX_GIT_VERSION="${PV}"
 }
 
