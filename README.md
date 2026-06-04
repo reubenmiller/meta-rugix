@@ -20,7 +20,7 @@ For details, check out [Rugix Ctrl's documentation](https://rugix.org/docs/ctrl)
 
 ## Supported Yocto Versions
 
-We only support Yocto LTS releases and maintain a dedicated branch for each (e.g., `scarthgap`, `kirkstone`). The `main` branch tracks the latest supported LTS release. Non-LTS Yocto releases are not officially supported.
+We only support Yocto LTS releases and maintain a dedicated branch for each (e.g., `wrynose`, `scarthgap`). The `main` branch tracks the latest supported LTS release. Non-LTS Yocto releases are not officially supported.
 
 ## Getting Started
 

@@ -23,7 +23,7 @@ target:
 
 defaults:
   repos:
-    branch: scarthgap
+    branch: wrynose
 
 repos:
   poky:
@@ -47,11 +47,11 @@ repos:
 
   meta-lts-mixins-rust:
     url: "https://git.yoctoproject.org/meta-lts-mixins"
-    branch: scarthgap/rust
+    branch: wrynose/rust
 
   meta-lts-mixins-uboot:
     url: "https://git.yoctoproject.org/meta-lts-mixins"
-    branch: scarthgap/u-boot
+    branch: wrynose/u-boot
 
   meta-rugix:
     layers:
